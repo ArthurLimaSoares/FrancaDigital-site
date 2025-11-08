@@ -1,0 +1,35 @@
+body{
+    background-image:url("https://i.makeagif.com/media/3-05-2023/adgFjd.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Playfair Display", serif;
+}
+h1{
+    color:whitesmoke;
+}
+
+p {
+    color:cyan;
+    font-size: 35px;
+}
+
+h2{
+    color:white
+}
+
+.caixa {
+    background-color: black;
+    width: 300px;
+}
+
+#rivalidade {
+    width: 1300px;
+    height: 700px;
+    border-radius: 8%
+}
+
+#portal {
+    width: 1000px;
+    height: 500px;
+}
