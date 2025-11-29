@@ -4,7 +4,45 @@ body{
     background-attachment: fixed;
     background-size: cover;
     font-family: "Playfair Display", serif;
+    margin: 0;
 }
+.site-header{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px 36px;
+    background: white;
+    display: flex;
+    box-shadow: 0 10px 24px rgba(240, 2, 2, 0.08);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+.logo img{
+    width: 96px;
+    height: auto;
+}
+.informacoes .aluno{
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 4px;
+}
+ 
+.informacoes .titulo-site{
+    font-size: 18px;
+    margin: 0;
+    color: black;
+}
+.site-nav a{
+    color:blue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.site-nav a:hover{
+    text-decoration: underline;
+}
+
 h1{
     color:whitesmoke;
 }
@@ -24,7 +62,7 @@ h2{
 }
 
 #rivalidade {
-    width: 1300px;
+    width: 1200px;
     height: 700px;
     border-radius: 8%
 }
